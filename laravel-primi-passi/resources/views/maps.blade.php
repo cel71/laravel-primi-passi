@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Dove trovarci:</h1>
-    <div><img src="{{ $src }}" alt="maps"></div>
+    <img src="{{ $src }}" alt="maps">
     <style>
         h1 {
             margin: 50px 20px;
