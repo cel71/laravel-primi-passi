@@ -8,5 +8,11 @@
 </head>
 <body>
     <h1>Informazioni: {{ $text2 }}</h1>
+    <style>
+        h1 {
+            text-align:center;
+            margin-top: 50px;
+        }
+    </style>
 </body>
 </html>

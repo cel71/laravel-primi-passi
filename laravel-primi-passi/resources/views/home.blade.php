@@ -7,6 +7,32 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello World, {{ $text }}</h1>
+    <div class="box">
+        <h1>Hello World, {{ $text }}</h1>
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">Info</a>
+            <a href="">Contatti</a>
+            <a href="">Maps</a>
+        </div>
+    </div>
+
+    <style>
+        .box {
+            width: 400px;
+            height: 200px;
+            margin: 0 auto;
+            border: 1px solid black;
+            margin-top: 50px;
+        }
+        .box h1, div {
+            text-align:center;
+            margin-top: 40px;
+        }
+
+        .links a {
+            padding: 15px;
+        }
+    </style>
 </body>
 </html>

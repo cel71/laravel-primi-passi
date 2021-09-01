@@ -7,6 +7,12 @@
     <title>Contatti</title>
 </head>
 <body>
-    <h1>{{ $text3 }} aaaa@gmail.com</h1>
+    <h1>{{ $text3 }} <a href="">aaaa@gmail.com</a></h1>
+    <style>
+        h1 {
+            text-align:center;
+            margin-top: 50px;
+        }
+    </style>
 </body>
 </html>
